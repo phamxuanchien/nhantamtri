@@ -1,0 +1,111 @@
+.detailproject-container{
+    .detailproject-body{
+        display: flex;
+        margin-top: 50px;
+        .detailproject-left{
+            margin-right: 20px;
+            border-right: 1px solid gray;
+            .detailproject-title{
+                height: 90px;
+                text-transform: uppercase;
+                font-size: 25px;
+                text-align: left;
+                margin-bottom: 30px;
+                display: flex;
+                .span-title{
+                    font-family: cursive;
+                    color: blue;
+                    text-transform: none;
+                    margin: 0 20px 5px 0;
+                }
+            }
+            .detailproject-address{
+                height: 20px;
+                font-size: 20px;
+            }
+            .detailproject-image{
+                margin-top: 25px;
+                height: 600px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .detailproject-content{
+                margin-top: 30px;
+                text-align: justify;
+
+            }
+            .detailproject-time{
+                border-top: 1px solid gray;
+                margin-top: 25px;
+                height: 40px;
+                text-align: end;
+            }
+        }
+        .detailproject-right{
+            display: block;
+           
+            .detailproject-right-up{
+                height: 1000px;
+                .right-up-title{
+                    text-transform: uppercase;
+                    color: orange;
+                    font-size: 18px;
+                    text-align: center;
+                }
+                .right-up-content{
+                    margin-top: 30px;
+                    text-align: left;
+                    overflow: hidden;
+                    text-transform: none;
+                }
+            }
+            .detailproject-right-down{
+
+            }
+        }
+    }
+}
+//Tablet, Mobile: width < 1024px
+@media only screen and(max-width:64em){
+    .detailproject-container{
+        .detailproject-body{
+            display: block;
+            .detailproject-left{
+                max-width: 100%;
+                border: 0;
+                .detailproject-image{
+                    height: 500px;
+                }
+            }
+            .detailproject-right{
+                padding: 20px;
+                max-width: 100%;
+                .detailproject-right-up{
+                    height: auto;
+                }
+                .detailproject-right-down{
+                    display: none;
+                }
+            }
+        }
+    }
+ }
+ 
+ //Mobile: width < 740px
+ @media only screen and(max-width:56.25em){
+    .detailproject-container{
+        .detailproject-body{
+            .detailproject-left{
+                .detailproject-image{
+                    height: 400px;
+                }
+            }
+        }
+    }
+ }
+ 
+ //Tablet: width >= 740px and width < 1024px
+ @media only screen and(max-width:56.25em)and(max-width:63.9375em){
+    
+ }

@@ -1,0 +1,26 @@
+.menunav-news{
+    // height: 60px;
+    font-size: 17px;
+    background-color: transparent;
+    .span-1{
+        margin-left: 20px;
+    }
+
+    a{
+        display: block;
+        cursor: pointer;
+        &:hover {
+             color: white;
+             background-color: orange;
+        }
+    }
+    a.active1{
+        background-color: blue;
+        color: white;
+    }
+    // &.menunav-news{
+    //     background-color: #eeefe6;
+    //     opacity: 0;
+    // } 
+}
+

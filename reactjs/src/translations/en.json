@@ -1,0 +1,214 @@
+{
+    "homeheader": {
+        "login": "Log in",
+        "register": "Register",
+        "select-language": "Select Language",
+        "sologan": "Physical development - Improving intelligence - Perfecting personality",
+        "welcome": "Welcome "
+    },
+    "banner": {
+        "title1": "MEDICAL PLATFORM",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "child1": "Specialist examination",
+        "child2": "Remote examination",
+        "child3": "General examination",
+        "child4": "Medical test",
+        "child5": "Mental health",
+        "child6": "Dental examination"
+    },
+    "login": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "userpass-wrong": "Invalid username or password!"
+    },
+    "menu": {
+        "home": {
+            "homepage": "Home"
+        },
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "Manage user using redux",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+        "admin": {
+            "manage-user": "Users System",
+            "manage-manager": "Manage managers",
+            "manage-admin": "Manage admins",
+            "crud": "CRUD user",
+            "user-account": "User Account Management",
+            "charity": "Charity",
+            "manage-projectneedhelp": "Project manager needs help",
+            "manage-humanneedhelp": "Human manage need help",
+            "newsevents": "News & Events",
+            "manage-newsevents": "Manage News & Events",
+            "benefactor": "Benefactor",
+            "manage-benefactor": "Manage Benefactor",
+            "department": "Departments",
+            "manage-department": "Manage departments",
+            "branch": "Specialties",
+            "manage-branch": "Manage specialties",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage handbook",
+            "manage-post": "Post management",
+            "manage-activity": "Activity report",
+            "internal-operations": {
+                "internal-operation": "Internal-operations",
+                "manage-groupmenu": "Manage Submenu",
+                "manage-branch": "Branch management",
+                "manage-department": "Department manager",
+                "manage-group": "Group management",
+                "manage-allcode": "Manage Allcode"
+            },
+            "work": {
+                "manage-work": "Workflow management",
+                "create-work": "Create a new job",
+                "plan-work": "Work plan",
+                "deploy-work": "Deploy work",
+                "assignment-work": "Work assignment",
+                "perform-work": "Perform the work"
+            },
+            "company": {
+                "manage-company": "Quản lý công ty",
+                "create-work": "Tạo mới công việc",
+                "plan-work": "Lập kế hoạch làm việc",
+                "deploy-work": "Triển khai công việc",
+                "assignment-work": "Phân công công việc",
+                "perform-work": "Thực hiện công việc"
+            }
+        },
+        "manager": {
+            "manage-schedule": "Manage manager's schedule",
+            "manage-patient": "Manage medical examination plan",
+            "manage-post": "Post management",
+            "manage-activity": "Activity report"
+        },
+        "member": {
+            "manageuser": "Account Management",
+            "manage-activity": "Activity report",
+            "edituser": "Change the account information"
+        }
+    },
+    "manage-user": {
+        "create": "Create account",
+        "create-user": "Create new account",
+        "add": "Add a new user:",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Image",
+        "save": "Save user",
+        "edit": "Save Edit",
+        "manage-internal": "Internal operating system",
+        "edituser": "Change the account information",
+        "new-user": "Register a new account",
+        "save-allcode": "Save new Allcode"
+    },
+    "homepage": {
+        "projectneedhelp": "Project needs help",
+        "more-infor": "See more",
+        "humanneedhelp": "Circumstances in need of help",
+        "honor-benefactor": "Honoring the benefactor",
+        "newsevents": "Featured News and Events",
+        "media-us": "Media and Us",
+        "action-youtube": "Our action shows on Youtube",
+        "location": "Place of performance",
+        "purpose": "Purpose",
+        "begin": "Time to start",
+        "cost": "Total amount needed",
+        "stage": "In progress",
+        "donated": "Donated",
+        "total-money": "With the total amount",
+        "turns": " turns",
+        "unit": " VND",
+        "contact-infor": "Contact Info",
+        "guide": "Guide",
+        "program": "Programs",
+        "about-us": "About us",
+        "benefactor": {
+            "fullname": "Fullname",
+            "phone-number": "Phone number",
+            "address": "Address",
+            "list-benefactor": "List of sponsors"
+        }
+    },
+    "manage-schedule": {
+        "title": "Manage manager's examination plan",
+        "choose-manager": "Choose manager",
+        "choose-date": "Choose date",
+        "save": "Save infor"
+    },
+    "patient": {
+        "detail-manager": {
+            "schedule": "Schedule",
+            "no-schedule": "The manager does not have an appointment today, please choose another date!",
+            "choose": "Choose ",
+            "book-free": " and book (free)"
+        },
+        "extra-infor-manager": {
+            "text-address": "Department address",
+            "price": "Price of medical examination: ",
+            "detail": " See details",
+            "payment": "The patient can pay the cost in the form of: ",
+            "hide-price": "Hide price list"
+        },
+        "booking-modal": {
+            "title": "Information to book a medical appointment",
+            "fullName": "Full name",
+            "phoneNumber": "Phone number",
+            "email": "Email",
+            "address": "Address",
+            "reason": "Reasons for medical examination",
+            "brithday": "Brithday",
+            "gender": "Gender",
+            "btnConfirm": "Confirm",
+            "btnCancel": "Cancel",
+            "freeBooking": "Free booking",
+            "price": "medical examination price: "
+        }
+    },
+    "admin": {
+        "manage-benefactor": {
+            "title": "Manager information about benefactors",
+            "add-info": "Create information for benefactors",
+            "select-benefactor": "Choose benefactors:",
+            "note": "Message from benefactor:",
+            "add": "Create information",
+            "save": "Save information",
+            "money": "Donate amount: ",
+            "payment": "Choose a donation method: ",
+            "select-projectneedhelp": "Select the project you want to help:",
+            "select-humanneedhelp": "Choose the situation you want to help:",
+            "donateActivity": "Donate to other activities: ",
+            "detail-info": "Detailed articles about benefactor: "
+        },
+        "manage-manager": {
+            "title": "Create more information managers",
+            "select-manager": "Choose a manager:",
+            "intro": "Introduction information:",
+            "add": "Create information",
+            "save": "Save information",
+            "price": "Choose the price of medical examination: ",
+            "payment": "Select a payment method: ",
+            "province": "Select province or city: ",
+            "nameDepartment": "Department name: ",
+            "addressDepartment": "Department address: ",
+            "note": "Note: ",
+            "branch": "Choose a branch",
+            "select-department": "choose department"
+        }
+    }
+}

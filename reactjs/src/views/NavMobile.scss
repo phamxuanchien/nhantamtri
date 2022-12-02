@@ -1,0 +1,26 @@
+.menunav-mobile{
+    height: 32px;
+    background-color: #eeefe6;
+    margin-top: 3px;
+    display: block;
+    .nav-item{
+        height: 35px;
+        li{
+            a{
+                padding: 10px 0;
+                cursor: pointer;
+                background-color: #eeefe6;
+                font-size: 18px;
+                &:hover {
+                     color: white;
+                     background-color: orange;
+                }
+            }
+            a.active1{
+                background-color: rgb(85, 126, 223);
+                color: white;
+                
+            }
+        }
+    }
+}

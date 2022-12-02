@@ -1,0 +1,82 @@
+.home-footer-container{
+    padding: 10px 30px 10px 30px;
+    background-color: #eeefe6;
+    height: auto !important;
+    width: 100%;
+    font-size: 14px;
+    .home-footer-body{
+        display: block;
+
+        .home-footer-up{
+            // height: 380px;
+            width: 100%;
+            border-bottom: 1px solid gray;
+            display: flex;
+            color: blue;
+            
+            .footer-up-menu{
+                width: 25%;
+                height: 100%;
+                font-size: 14px;
+               
+                p{
+                    margin-top: 20px;
+                    // border-bottom: 1px solid gray;
+                    cursor: pointer;
+                    text-align: left;
+                    text-transform: none;
+    
+                    &:hover{
+                        background-color: orange;
+                        color: white;
+                    }
+                    .far{
+                        width: 30px;
+                        
+                    }
+                    .fas{
+                        width: 30px;
+                    }
+                }
+                
+            }
+      
+        }
+        .home-footer-down{
+            height: 60px;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            margin: 10px 0;
+        }
+    }
+}
+//Mobile: width < 740px
+@media only screen and(max-width:56.25em){
+    .home-footer-container{
+        .home-footer-body{
+            .home-footer-up{
+                height: auto !important;
+                flex-direction: column;
+                max-width: none !important;
+                .footer-up-menu{
+                    width: 100%;
+                   
+                }
+            }
+        }
+    }
+}
+//Tablet: width >= 740px and width < 1024px
+@media only screen and(max-width:56.25em)and(max-width:63.9375em){
+    .home-footer-container{
+        .home-footer-body{
+            .home-footer-up{
+                display: block;
+                .footer-up-menu{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

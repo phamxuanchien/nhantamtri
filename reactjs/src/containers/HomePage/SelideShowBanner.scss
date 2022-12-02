@@ -1,0 +1,22 @@
+.slide-container{
+    height: 485px;
+    width: 100%;
+   
+    .each-slide{
+        height: 485px;
+        width: 100%;
+        .show-banner{
+            width: 100%;
+            height: 485px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    
+    .nav.default-nav{
+        display: none !important;
+    
+    }
+    
+}

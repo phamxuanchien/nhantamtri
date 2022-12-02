@@ -1,0 +1,22 @@
+.menunav-intro{
+    // background-color: #eeefe6;
+    background-color: transparent;
+    font-size: 17px;
+    .span-1{
+        margin-left: 20px;
+    }
+
+    a{
+        display: block;
+        cursor: pointer;
+        font-size: 17px;
+        &:hover {
+             color: white;
+             background-color: orange;
+        }
+    }
+    a.active1{
+        background-color: blue;
+        color: white;
+    }
+}

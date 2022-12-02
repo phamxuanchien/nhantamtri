@@ -1,0 +1,20 @@
+.menunav-program{
+    background-color: transparent;
+    font-size: 17px;
+    .span-1{
+        margin-left: 20px;
+    }
+
+    a{
+        display: block;
+        cursor: pointer;
+        &:hover {
+             color: white;
+             background-color: orange;
+        }
+    }
+    a.active1{
+        background-color: blue;
+        color: white;
+    }
+}

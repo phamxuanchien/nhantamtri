@@ -1,0 +1,73 @@
+.donation-form-container{
+    font-size: 14px;
+    height: auto;
+    width: 100%;
+    padding: 10px 30px 20px 30px;
+    .row{
+        display: block;
+        .donation-form-title{
+            color: blue;
+            font-weight: 600;
+            font-size: 25px;
+            text-align: center;
+            text-transform: uppercase;
+            align-items: center;
+            height: 40px;
+            width: 100%;
+        }
+        .donation-form-content{
+            height: auto;
+            width: 100%;
+            .donation-form-content-up{
+               padding-top: 30px;
+               .donation-form-bank-title{
+                   font-size: 20px;
+                   color: blue;
+                   text-transform: uppercase;
+               }
+               .donation-form-bank-content{
+                   text-align: center;
+                   padding-top: 20px;
+               }
+            }
+            .donation-form-content-center{
+                padding-top: 30px;
+                .donation-form-wallet-title{
+                    font-size: 20px;
+                    color: blue;
+                    text-transform: uppercase;
+                }
+                .donation-form-wallet-content{
+                    text-align: center;
+                    padding-top: 20px;
+                }
+            }
+            .donation-form-content-down{
+                padding-top: 30px;
+                .donation-form-paypal-title{
+                    font-size: 20px;
+                    color: blue;
+                    text-transform: uppercase;
+                }
+                .donation-form-paypal-content{
+                    text-align: center;
+                    padding-top: 20px;
+                }
+            }
+            .donation-form-cash{
+                padding-top: 30px;
+                .donation-form-cash-title{
+                    font-size: 20px;
+                    color: blue;
+                    text-transform: uppercase;
+                }
+                .donation-form-cash-content{
+                    text-align: center;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+    
+   
+}

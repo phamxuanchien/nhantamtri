@@ -1,0 +1,66 @@
+.manage-newsevents-container{
+    padding: 30px 30px;
+
+    .ms-title{
+        text-align: center;
+        margin: 10px 0;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .add-new-newsevents{
+        .add-new{
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .newsevents-info{
+            // display: flex;
+            .project-info{
+                margin-top: 10px;
+                font-size: 20px;
+                font-weight: 500;
+                color: blue;
+            }
+            .element{
+                display: flex;
+                .form-group{
+                    display: block;
+                }
+            }
+        }
+        .newsevents-contact{
+            .info-manage{
+                margin-top: 10px;
+                font-size: 20px;
+                font-weight: 500;
+                color: blue;
+            }
+            .element{
+                display: flex;
+                .form-group{
+                    display: block;
+                }
+            }
+        }
+        .project-content{
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 500;
+            color: blue;
+            margin-left: 15px;
+            margin-bottom: 20px;
+        }
+        .btn-save-newsevents{
+
+            border: none;
+            background: orange;
+            padding: 8px 5px;
+            min-width: 75px;
+            border-radius: 3px;
+            margin: 15px 0;
+        }
+    }
+}

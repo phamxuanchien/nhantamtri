@@ -1,0 +1,113 @@
+.contact-container{
+    // width: 100%;
+    font-size: 14px;
+    .contact-body{
+        padding: 20px 0px 10px 0px;
+        .contact-title{
+            .intro-title{
+                margin-left: 30px;
+            }
+        }
+        .contact-content{
+            display: flex;
+
+            .contact-left{
+                display: block;
+                padding-right: 30px;
+                .intro-content{
+                    height: auto;
+                    margin-top: 40px;
+                    text-indent: 40px;
+                    margin-left: 20px;
+                    .intro-content-title{
+                        margin-top: 30px;
+                        text-align: center;
+                        .intro-content-title-span{
+                            font-size: 25px;
+                            color: blue;
+                            text-transform: uppercase;
+                            
+                        }
+                    }
+                }
+                .contact-message{
+                }
+            }
+    
+            .contact-right{
+                display: block;
+                text-align: center;
+                font-size: 14px;
+                padding-left: 30px;
+                border-left: 1px solid gray;
+                margin-top: 40px;
+                p{
+                    margin-top: 20px;
+                    border-bottom: 1px solid gray;
+                    cursor: pointer;
+                    text-align: left;
+    
+                    &:hover{
+                        background-color: orange;
+                        color: white;
+                    }
+                    .far{
+                        width: 30px;
+                        
+                    }
+                    .fas{
+                        width: 30px;
+                    }
+                }
+                .info-contact{
+                    // height: 250px;
+                }
+            }
+    
+        }
+       
+        .contact-title{
+            .intro-title{
+                text-align: left;
+                label{
+                    color: blue;
+                    font-size: 30px;
+                    font-weight: 500;
+                    border-bottom: 1px solid gray;
+                    font-family: cursive;
+                    padding-bottom: 5px;
+                }
+                
+            }
+
+        }
+    }
+}
+//Tablet, Mobile: width < 1024px
+@media only screen and(max-width:64em){
+    .contact-container{
+        .contact-body{
+            .contact-content{
+                .contact-left{
+                    max-width: 100% !important;
+                }
+                .contact-right{
+                    display: none;
+                    border: 0;
+                    width: 0;
+                }
+            }
+            
+        }
+    }
+}
+
+//Mobile: width < 740px
+@media only screen and(max-width:56.25em){
+   
+}
+
+//Tablet: width >= 740px and width < 1024px
+@media only screen and(max-width:56.25em)and(max-width:63.9375em){
+    
+}

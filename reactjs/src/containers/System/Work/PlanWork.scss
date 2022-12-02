@@ -1,0 +1,28 @@
+.plan-work-container{
+    
+    .work-title{
+        margin: 20px 0 10px 0;
+        text-align: center;
+       
+        .span-title{
+            text-transform: uppercase;
+            font-size: 25px;
+            color: blue;
+            display: block;
+        }
+        .spanname-title{
+            font-size: 17px;
+            // font-size: calc(10px+2vmin);//tự động phóng to thu nhỏ font theo độ co giản của màn hình
+        }
+    }
+    .plan-work{
+        margin: 40px 30px 20px 30px;
+        .plan-work-down{
+            display: block;
+            .plan-center{
+                display: flex;
+               padding: 0 !important;
+            }
+        }
+    }
+}

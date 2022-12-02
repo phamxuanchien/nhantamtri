@@ -1,0 +1,138 @@
+.aboutus-container{
+    .aboutus-body{
+        font-size: 14px;
+        padding: 50px 30px 10px 30px;
+        display: block;
+        min-height: 100vh;
+        .aboutus-title{
+            font-family: cursive;
+            color: blue;
+            text-align: left;
+            font-size: 30px;
+            font-weight: 500;
+            .span-title{
+                padding-bottom: 5px;
+                border-bottom: 1px solid gray;
+            }
+        }
+        .aboutus-element{
+            display: flex;
+            padding-top: 30px;
+            .aboutus-element-left{
+                display: block;
+                .aboutus-element-content{
+                    text-indent: 30px;
+                    // margin: 0 20px;
+                    text-align: justify;
+                }
+                .aboutus-element-right-block-mobile{
+                    display: none;
+                }
+            }
+            .aboutus-element-right{
+                display: block;
+                border-left: 1px solid gray;
+                margin-left: 20px;
+                .aboutus-element-right-menu{
+
+                }
+                .aboutus-element-right-block{
+                    .right-block-title{
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        height: 50px;
+                        text-align: center;
+                        color: blue;
+                        .span-right-title{
+                            padding-bottom: 5px;
+                            border-bottom: 1px solid gray;
+                        }
+                    }
+                    .right-block-content{
+                        margin-top: 10px;
+                        display: block;
+                        .span-right-content{
+                            margin: 5px 0 5px 20px;
+                            cursor: pointer;
+                            margin-left: 20px;
+       
+                            &:hover {
+                                color: white;
+                                background-color: orange;
+                            }
+                            &.active {
+                                color: white;
+                                background-color: blue;
+                            }
+                        }
+                        
+                    }
+                }
+                .aboutus-element-right-img{
+                    margin: 30px 0 10px 10px;
+                }
+               
+            }
+        }
+    }
+}
+//Tablet, Mobile: width < 1024px
+@media only screen and(max-width:64em){
+    .aboutus-container{
+        .aboutus-body{
+            .aboutus-element{
+                width: 100%;
+                .aboutus-element-left{
+                    max-width: 100% !important;
+                    .aboutus-element-right-block-mobile{
+                        display: block;
+                        padding-top: 30px;
+                        .right-block-title{
+                            font-size: 25px;
+                            text-transform: uppercase;
+                            height: 50px;
+                            text-align: center;
+                            color: blue;
+                            .span-right-title{
+                                padding-bottom: 5px;
+                                border-bottom: 1px solid gray;
+                            }
+                        }
+                        .right-block-content{
+                            margin-top: 10px;
+                            display: block;
+                            .span-right-content{
+                                margin: 5px 0 5px 20px;
+                                cursor: pointer;
+                                margin-left: 20px;
+           
+                                &:hover {
+                                    color: white;
+                                    background-color: orange;
+                                }
+                                &.active {
+                                    color: white;
+                                    background-color: blue;
+                                }
+                            }
+                        }
+                    }
+                }
+                .aboutus-element-right{
+                    display: none;
+                }
+            }
+            
+        }
+    }
+}
+
+//Mobile: width < 740px
+@media only screen and(max-width:56.25em){
+   
+}
+
+//Tablet: width >= 740px and width < 1024px
+@media only screen and(max-width:56.25em)and(max-width:63.9375em){
+    
+}

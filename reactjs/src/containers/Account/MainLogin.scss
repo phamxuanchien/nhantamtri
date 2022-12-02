@@ -1,0 +1,42 @@
+.mainlogin-background{
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    .mainlogin-container{
+       
+        .mainlogin-content{
+            display: flex;
+            .mainlogin-content-left{
+                
+            }
+            .mainlogin-content-right{
+
+            }
+        }
+    }
+}
+//Tablet, Mobile: width < 1024px
+@media only screen and(max-width:64em){
+    .mainlogin-background{
+        .mainlogin-container{
+            .mainlogin-content{
+                display: block;
+                .mainlogin-content-left{
+                   width: 100%;
+                }
+                .mainlogin-content-right{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+//Mobile: width < 740px
+@media only screen and(max-width:56.25em){
+   
+}
+//Tablet: width >= 740px and width < 1024px
+@media only screen and(max-width:56.25em)and(max-width:63.9375em){
+    
+}
+

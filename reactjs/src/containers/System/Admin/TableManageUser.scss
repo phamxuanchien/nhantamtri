@@ -1,0 +1,73 @@
+#TableManageUser {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#TableManageUser td,
+#TableManageUser th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#TableManageUser tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#TableManageUser tr:hover {
+    background-color: #ddd;
+}
+
+#TableManageUser th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.paging{
+    margin-left: 550px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    .preview{
+        cursor: pointer;
+        color: blue;
+    }
+    .next{
+        cursor: pointer;
+        color: blue;
+    }
+    .pagination{
+        font-size: 20px;
+        .btn{
+            cursor: pointer;
+        }
+        &:hover{
+            background-color: orange;
+            color: white;
+        }
+        .active{
+            background-color: blue;
+            color: white;
+        }
+    }
+}
+//Tablet, Mobile: width < 1024px
+@media only screen and(max-width:64em){
+    .paging{
+        z-index: 1000;
+        margin-left: 50px !important;
+        text-align: center !important;
+    }
+}
+
+//Mobile: width < 740px
+@media only screen and(max-width:56.25em){
+   
+}
+
+//Tablet: width >= 740px and width < 1024px
+@media only screen and(max-width:56.25em)and(max-width:63.9375em){
+    
+}

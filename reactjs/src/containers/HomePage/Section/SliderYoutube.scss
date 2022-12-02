@@ -1,0 +1,14 @@
+.slideryoutube-child{
+    cursor: pointer;
+
+    .slideryoutube-name{
+        padding: 10px 0;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 500;
+        
+        &:hover{
+            color: #45c3d2;
+        }
+    }
+}

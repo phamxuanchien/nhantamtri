@@ -1,0 +1,32 @@
+.section-customize{
+    .customize-border{
+        .outer-bg{
+            .honor-title{
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 50px;
+                width: 380px;
+                background-image: url(../../../assets/benefactor/vinhdanh.png);
+            }
+            .sliderhonorbenefactor-child{
+                cursor: pointer;
+                &:hover{
+                    color: #45c3d2;
+                }
+            }
+        }
+        .position{
+            .honor-name{
+                color: blue;
+            }
+        }
+    }
+}
+//Mobile: width < 740px
+@media only screen and(max-width:46.1875em){
+    .section-customize{
+        flex-direction: column !important;
+        
+    }
+}

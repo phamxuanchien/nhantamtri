@@ -1,0 +1,90 @@
+.userguideaccount-container{
+    background-color: #f5f5f5;
+    height: 700px;
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-right: 70px;
+    .userguideaccount-body{
+        margin: 50px 30px 20px 30px;
+
+        .userguideaccount-title{
+            padding-top: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            .userguideaccount-title-span{
+                font-size: 25px;
+                color: blue;
+            }
+
+        }
+        .userguideaccount-content{
+            padding: 30px;
+            .userguideaccount-content-title{
+                text-align: left;
+                margin-left: 30px;
+                .userguideaccount-content-title-span{
+                    font-size: 20px;
+                    color: orange;
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid gray;
+                }
+            }
+            .userguideaccount-content-honor{
+                margin-top: 20px;
+                text-align: left;
+                margin-left: 50px;
+                font-size: 17px;
+                text-align: justify;
+                text-indent: 30px;
+                display: block;
+                .userguideaccount-content-honor-p{
+                   
+                }
+            }
+            .userguideaccount-content-staff{
+                margin-top: 20px;
+                text-align: left;
+                margin-left: 50px;
+                font-size: 17px;
+                text-align: justify;
+                text-indent: 30px;
+                display: block;
+            }
+            .userguideaccount-content-thanks{
+                margin-top: 20px;
+                text-align: center;
+                margin-left: 50px;
+                font-size: 20px;
+                text-align: justify;
+                text-indent: 30px;
+                display: block;
+                color: red;
+                .userguideaccount-content-thanks-span{
+                    text-align: center;
+                }
+            }
+
+        }
+    }
+}
+//Tablet, Mobile: width < 1024px
+@media only screen and(max-width:64em){
+    .userguideaccount-container{
+        height: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        .userguideaccount-body{
+            
+        }
+    }
+}
+
+//Mobile: width < 740px
+@media only screen and(max-width:56.25em){
+   
+}
+//Tablet: width >= 740px and width < 1024px
+@media only screen and(max-width:56.25em)and(max-width:63.9375em){
+    
+}

@@ -1,0 +1,27 @@
+.menunav{
+    height: 32px;
+    background-color: #eeefe6;
+    margin-top: 3px;
+
+    a{
+        // border-left: 1px solid grey;
+        cursor: pointer;
+        background-color: #eeefe6;
+        color: rgb(55, 55, 55);
+        padding: 10px 5px 10px 5px;
+        align-items: center;
+        font-size: 14px;
+        &:hover {
+             color: white;
+             background-color: orange;
+        }
+    }
+    a.active1{
+        background-color: rgb(85, 126, 223);
+        color: white;
+        
+    }
+    
+    //test
+    
+}

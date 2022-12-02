@@ -1,0 +1,116 @@
+.project-container{
+    .body{
+        display: block;
+        padding: 30px 30px 10px 30px;
+        .title{
+            height: 60px;
+            text-align: left;
+            text-transform: none;
+            .title-span{
+                font-size: 30px;
+                border-bottom: 1px solid gray;
+                color: blue;
+                padding-bottom: 5px;
+                font-weight: 500;
+                font-family: cursive;
+            }
+        }
+        .project-content{
+            display: flex;
+            margin-top: 20px !important;
+            margin: 0;
+            .content-left{
+                border-right: 1px solid gray;
+                .card-deck{
+                    display: inline-flex;
+                    cursor: pointer;
+                    .card{
+                        flex: none !important;
+                        margin-bottom: 30px;
+                        width: 380px;
+                        height: 700px;
+                        .card-title{
+                            height: 50px;
+                            text-transform: uppercase;
+                            overflow: hidden;
+                        }
+                        .card-location{
+                            height: 40px;
+                            overflow: hidden;
+                        }
+                        .card-img-top{
+                            height: 230px;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+            }
+            .content-right{
+                display: block !important;
+                .content-right-up{
+                    margin-left: 20px;
+                }
+                .content-right-down{
+
+                }
+            }
+        }
+       
+    }
+}
+
+//Tablet, Mobile: width < 1024px
+@media only screen and(max-width:64em){
+    .project-container{
+        .body{
+            .project-content{
+                width: 100%;
+                .content-right{
+                    display: none;
+                }
+                .content-left{
+                    width: 100%;
+                    border: 0;
+                }
+            }
+        }
+    }
+}
+
+//Mobile: width < 740px
+@media only screen and(max-width:56.25em){
+    .project-container{
+        .body{
+            .project-content{
+                width: 100%;
+                .content-right{
+                    display: none !important;
+                }
+                .content-left{
+                    width: 100%;
+                    border: 0;
+                }
+            }
+        }
+    }
+}
+
+//Tablet: width >= 740px and width < 1024px
+@media only screen and(max-width:56.25em)and(max-width:63.9375em){
+    .project-container{
+        .body{
+            .project-content{
+                width: 100%;
+                .content-right{
+                    display: none !important;
+                }
+                .content-left{
+                    width: 100%;
+                    border: 0;
+                }
+            }
+        }
+    }
+}

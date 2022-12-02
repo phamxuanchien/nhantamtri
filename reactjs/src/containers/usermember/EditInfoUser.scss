@@ -1,0 +1,37 @@
+.user-redux-container{
+    .user-redux-body{
+        margin-top: 30px;
+        .container{
+            .row{
+                .user-edit{
+                    text-transform: uppercase !important;
+                    font-size: 16px !important;
+                    font-weight: 600 !important;
+                }
+                .preview-img-container {
+                    height: 200px;
+                    .label-upload {
+                        padding: 5px;
+                        border-radius: 3px;
+                        background: #ddd;
+                        cursor: pointer;
+                
+                        &:hover {
+                            opacity: 0.9;
+                        }
+                    }
+                
+                    .preview-image {
+                        height: 140px;
+                        width: 100%;
+                        border: 1px solid #ddd;
+                        background: center center no-repeat;
+                        background-size: contain;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+

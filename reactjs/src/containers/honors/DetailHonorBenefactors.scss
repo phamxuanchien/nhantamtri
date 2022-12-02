@@ -1,0 +1,212 @@
+.detailhonor-container{
+    height: auto;
+    width: 100%;
+    .detailhonor-body{
+        padding: 30px 30px 10px 30px;
+        display: flex;
+        margin-top: 40px;
+        .detailhonor-left{
+            margin-right: 20px;
+            border-right: 1px solid gray;
+            
+            .detailhonor-title{
+                display: flex;
+                margin-bottom: 30px;
+                height: 250px;
+               
+                .detailhonor-image{
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+                .detailhonor-info{
+                    margin-left: 20px;
+                    display: block;
+                    .detailhonor-info-name{
+                        height: 40px;
+                        display: flex;
+                        .fullname{
+                            font-size: 25px;
+                            text-align: center;
+                            text-transform: uppercase;
+                            margin-top: -10px;
+                        }
+                        .honor-element1{
+                            width: 120px;
+                        }
+                    }
+                    .detailhonor-info-address{
+                        display: flex;
+                        .honor-element1{
+                            width: 120px;
+                        }
+                    }
+                    .detailhonor-info-phone{
+                        display: flex;
+                        .honor-element1{
+                            width: 120px;
+                        }
+                    }
+                    .honor-sum-number{
+                        text-align: left;
+                        // margin: 5px;
+                        height: 22px;
+                        display: flex;
+                        .honor-element1{
+                            width: 120px;
+                        }
+                        .honor-element2{
+                            // text-indent: 5px;
+                        }
+                        .honor-element3{
+                            // text-indent: 5px;
+                        }
+                    }
+                    .honor-sum-money{
+                        text-align: left;
+                        // margin: 5px;
+                        height: 22px;
+                        display: flex;
+                        .honor-element1{
+                            width: 120px;
+                        }
+                        .honor-element2{
+                            // text-indent: 5px;
+                        }
+                        .honor-element3{
+                            // text-indent: 5px;
+                        }
+                    }
+                }
+            }
+            .detailhonor-content{
+                margin-top: 30px;
+                text-align: justify;
+
+            }
+            .list-honor-mobile{
+                display: none;
+            }
+        }
+        .detailhonor-right{
+            display: block;
+            .list-title{
+                margin-bottom: 10px;
+                text-transform: uppercase;
+                text-align: center;
+                .span-title{
+                    color: orange;
+                    font-size: 22px;
+                    
+                }
+                .list-honor{
+                    margin-top: 30px;
+                    text-align: left;
+                    text-transform: uppercase;
+                    
+                }
+            }
+            
+
+        }
+    }
+}
+
+//Tablet, Mobile: width < 1024px
+@media only screen and(max-width:64em){
+   .detailhonor-container{
+       .detailhonor-body{
+           display: block;
+           .detailhonor-left{
+                max-width: 100%; 
+                border: 0;
+                max-height: 100%;
+                display: block;
+                .list-honor-mobile{
+                    display: block;
+                    margin-top: 30px;
+                    text-align: left;
+                    text-transform: uppercase;
+                    .span-title{
+                        color: orange;
+                        font-size: 22px;
+                    }
+                }
+                .detailhonor-title{
+                    flex-direction: column;
+                    display: block;
+                    height: 100%;
+                    .detailhonor-image{
+                        height: 400px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        
+                    }
+                    .detailhonor-info{
+                        flex-direction: column-reverse;
+                        margin-left: 0;
+                        padding: 20px 0;
+                        .detailhonor-info-name{
+                        }
+                    }
+                }
+           }
+           .detailhonor-right{
+                display: none;
+                border: 0;
+            }
+       }
+   }
+}
+//Mobile: width < 740px
+@media only screen and(max-width:56.25em){
+    .detailhonor-container{
+        .detailhonor-body{
+            display: block;
+            .detailhonor-left{
+                 max-width: 100%; 
+                 border: 0;
+                 max-height: 100%;
+                 .list-honor-mobile{
+                     display: block;
+                     margin-top: 30px;
+                     text-align: left;
+                     text-transform: uppercase;
+                     .span-title{
+                         color: orange;
+                         font-size: 22px;
+                     }
+                 }
+                 .detailhonor-title{
+                     flex-direction: column;
+                     display: block;
+                     height: 100%;
+                     .detailhonor-image{
+                         height: 400px;
+                         background-repeat: no-repeat;
+                         background-size: cover;
+                         background-position: center;
+                         
+                     }
+                     .detailhonor-info{
+                         flex-direction: column-reverse;
+                         margin-left: 0;
+                         padding: 20px 0;
+                         .detailhonor-info-name{
+                         }
+                     }
+                 }
+            }
+            .detailhonor-right{
+                 display: none;
+                 border: 0;
+             }
+        }
+    }
+}
+
+//Tablet: width >= 740px and width < 1024px
+@media only screen and(max-width:56.25em)and(max-width:63.9375em){
+    
+}

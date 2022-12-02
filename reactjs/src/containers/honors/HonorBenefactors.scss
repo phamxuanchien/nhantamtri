@@ -1,0 +1,163 @@
+.honor-container{
+   font-size: 14px;
+    .honor-body{
+        display: block;
+        // margin-top: 30px;
+        padding: 50px 30px 10px 30px;
+        .honor-title{
+            .span-title{
+                font-size: 30px;
+                border-bottom: 1px solid gray;
+                height: 60px;
+                font-weight: 500;
+                color: orange;
+                text-align: left;
+                font-family: cursive;
+            }
+            
+        }
+        .honor-content{
+            display: flex;
+            margin-top: 30px;
+            .honor-content-left{
+                .honor-content-left-up{
+                    .btn{
+                        cursor: pointer;
+                        margin-right: 5px;
+                        margin-bottom: 5px;
+                        height: 65px;
+                        width: 195px;
+                        .btn-title{
+                            color: orange;
+                            border-bottom: 1px solid gray;
+                            margin-bottom: 0;
+                        }
+                        .btn-content{
+                            font-size: 10px;
+                            .content-title{
+                                margin-top: 0;
+                                margin-bottom: 0;
+                            }
+                            .content-body{
+                                display: flex;
+                                .content-total{
+                                    // border-right: 1px solid gray;
+                                    margin-right: 5px;
+                                }
+                                .content-money{
+                                    // margin-left: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .honor-content-left-down{
+                    display: block;
+                    .element-title{
+                        text-transform: uppercase;
+                        font-size: 17px;
+                        color: blue;
+                        text-align: center;
+                        margin: 30px 0;
+                        font-weight: 600;
+                    }
+                    .element-content{
+                        margin: 10px 0px 10px 0px;
+                    }
+                }
+            }
+            .honor-content-right{
+                display: block !important;
+                border-left: 1px solid gray;
+                .honor-content-right-up{
+                    margin: 0 20px 10px 20px;
+                }
+                .honor-content-right-down{
+                    .element-up{
+                        text-transform: uppercase;
+                        display: block;
+                        text-align: center;
+                        color: blue;
+                        .span-element-up{
+                            font-size: 17px;
+                            margin: 30px 0;
+                            padding-bottom: 5px;
+                            border-bottom: 1px solid gray;
+                        }
+                        .element-list{
+                            margin: 20px 0;
+                            text-align: left;
+                            .span-list{
+                                margin-top: 5px;
+                                margin-left: 30px;
+                            }
+                        }
+                    }
+                    .element-down{
+                        text-transform: uppercase;
+                        display: block;
+                        text-align: center;
+                        color: blue;
+                        .span-element-up{
+                            font-size: 17px;
+                            margin: 30px 0;
+                            padding-bottom: 5px;
+                            border-bottom: 1px solid gray;
+                        }
+                        .element-list{
+                            margin: 20px 0;
+                            text-align: left;
+                            .span-list{
+                                margin-top: 5px;
+                                margin-left: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//Tablet, Mobile: width < 1024px
+@media only screen and(max-width:64em){
+    .honor-container{
+        .honor-body{
+            .honor-content{
+                width: 100%;
+                .honor-content-right{
+                    width: 0 !important;
+                    display: none !important;
+                }
+                .honor-content-left{
+                    width: 100% !important;
+                    border: 0;
+                    max-width: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+//Mobile: width < 740px
+@media only screen and(max-width:56.25em){
+    .honor-container{
+        .honor-body{
+            .honor-content{
+                width: 100%;
+                .honor-content-right{
+                    display: none !important;
+                    width: 0 !important;
+                }
+                .honor-content-left{
+                    width: 100% !important;
+                    border: 0;
+                }
+            }
+        }
+    }
+}
+
+//Tablet: width >= 740px and width < 1024px
+@media only screen and(max-width:56.25em)and(max-width:63.9375em){
+    
+}

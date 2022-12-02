@@ -1,0 +1,34 @@
+.abount-menuprogram-container{
+    .abount-menuprogram-body{
+        font-size: 14px;
+        padding: 0px 0px 10px 0px;
+        display: block;
+        .abount-menuprogram-title{
+            color: orange;
+            text-align: left;
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: center;
+            .span-title{
+                padding-bottom: 5px;
+                border-bottom: 1px solid gray;
+            }
+           
+        }
+        .abount-menuprogram-element{
+            padding-top: 30px;
+            .right-block-content{
+                display: block;
+                .span-right-content{
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+                &:hover{
+                    background-color: orange;
+                    color: white;
+                }
+            }
+        }
+    }
+}

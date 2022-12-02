@@ -1,0 +1,67 @@
+.managebenefactor-container {
+    padding: 30px 30px;
+
+    .managebenefactor-title {
+        text-align: center;
+        margin: 15px 0;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .save-content-benefactor {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+        padding: 5px;
+        background: orange;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+    .detail-info{
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: blue;
+        margin-bottom: 20px;
+    }
+    .add-info{
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: blue;
+    }
+    .more-infor {
+        display: flex;
+        gap: 15px;
+        padding-bottom: 20px;
+
+        .content-left {
+            width: 35%;
+        }
+
+        .content-right {
+            width: 65%;
+        }
+    }
+    .create-content-benefactor {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+        padding: 5px;
+        background: rgb(7, 83, 141);
+        cursor: pointer;
+        color: white;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}
